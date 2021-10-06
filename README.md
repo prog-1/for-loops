@@ -1,6 +1,6 @@
 # for loops
 
-# Power of 2
+# Power of 2 (6 points)
 
 *(Implement a program in the directory `power-of-2`)*
 
@@ -21,7 +21,7 @@ Enter the number: 6
 6 is not a power of 2.
 ```
 
-# Power of k
+# Power of k (6 points)
 
 *(Implement a program in the directory `power-of-k`)*
 
@@ -48,7 +48,7 @@ Enter n and k: 9 2
 9 is not a power of 2.
 ```
 
-# Prime number
+# Prime number (6 points)
 
 *(Implement a program in the directory `prime-number`)*
 
@@ -69,7 +69,7 @@ Enter the number: 4
 4 is not a prime number.
 ```
 
-# Perfect square
+# Perfect square (6 points)
 
 *(Implement a program in the directory `perfect-square`)*
 
@@ -91,7 +91,7 @@ Enter the number: 8
 8 is not a perfect square.
 ```
 
-# First digit
+# First digit (8 points)
 
 *(Implement a program in the directory `first-digit`)*
 
@@ -112,7 +112,7 @@ Enter the number: 0
 The first digit is 0
 ```
 
-# Reversed number
+# Reversed number (8 points)
 
 *(Implement a program in the directory `reversed-number`)*
 
@@ -133,7 +133,7 @@ Enter the number: 1
 The reversed number is 1
 ```
 
-# Even digits
+# Even digits (8 points)
 
 
 *(Implement a program in the directory `even-digits`)*
