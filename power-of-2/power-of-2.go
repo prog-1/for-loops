@@ -10,9 +10,8 @@ func main() {
 	if n > 0 && (n&(n-1)) == 0 {
 		for z := 1; z != n; z *= 2 {
 			i++
-
 		}
-		fmt.Printf("2^%v", i)
+		fmt.Printf("%v = 2^%v", n, i)
 	} else {
 		fmt.Println(n, "is not a power of 2.")
 	}
