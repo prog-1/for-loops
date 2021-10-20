@@ -12,8 +12,7 @@ func main() {
 	fmt.Scan(&n, &k)
 	if n%k == 0 {
 		for z := 1; z != n; z *= k {
-			i++
-			fmt.Println(i) // counter
+			i++ // counter
 		}
 		fmt.Printf("%v = %v^%v", n, k, i)
 	} else {
