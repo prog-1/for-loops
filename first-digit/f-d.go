@@ -8,8 +8,8 @@ func main() {
 	var x int // 4457; -956; 234; 5
 	fmt.Scan(&x)
 	var y int
-	for d := x; d != 0; d /= 10 {
-		y = y/10 + d%10
+	for y = x; y/10 != 0; {
+		y /= 10
 	}
 	fmt.Println("The first digit is", y) // 4; -9; 2; 5
 }
