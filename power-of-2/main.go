@@ -6,11 +6,11 @@ import (
 
 func main() {
 	fmt.Println("The program determines if a number is a power of 2.")
-	var n uint
+	var n int
 	fmt.Println("Enter the number:")
 	fmt.Scan(&n)
-	var y uint
-	var z uint
+	var y int
+	var z int
 	if n == 1 {
 		fmt.Println(n, "=2^0")
 		return
