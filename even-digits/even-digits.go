@@ -17,6 +17,5 @@ func main() {
 			fmt.Printf("All digits in %v are even.", n)
 			break
 		}
-
 	}
 }
