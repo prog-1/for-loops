@@ -10,7 +10,7 @@ func main() {
 	var b int
 	fmt.Scanln(&b)
 	var c int
-	for c = b; c/10 != 0 {
+	for c = b; c/10 != 0; {
 		c /= 10
 	}
 	fmt.Println("First digit is", c)
