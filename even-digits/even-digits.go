@@ -1,42 +1,24 @@
 package main
 
-import (
-	"fmt"
-	"math"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("The program determines if a number is a power of 2.")
-	var a, s float64
-	if a == 0 {
-		fmt.Print("error: 0 isn't a power of any number")
-	} else {
-		if a >= 2 {
-			for fmt.Scan(&a); a > math.Pow(2, s); {
-				s++
-			}
-
-		} else {
-			for fmt.Scan(&a); a < math.Pow(2, s); {
-				s--
-			}
-		}
-
-		if math.Pow(2, s) == a {
-			fmt.Print(a, "=2^", s)
-		} else {
-			fmt.Println(a, "is not a power of 2")
+	fmt.Println("This program verifies whether a number is a palindrome.")
+	fmt.Print("Enter a number: ")
+	var x int
+	fmt.Scan(&x)
+	for tmp := x; tmp != 0; tmp /= 10 {
+		if (tmp%10)%2 != 0 {
+			fmt.Println("Not all digits in", x, "are even")
+			return
 		}
 	}
+	fmt.Println("All digits in", x, "are even")
 }
 
-// tested 16
-//16 is not a power of 2
-//tested 9
-//9 is not a power of 2
-//tested 0.0625
-//0.0625=2^-4
-//tested 1
-//1=2^0
-//tested 0.06
-//0.06 is not a power of 2
+// tested 42681
+// Not all digits in 42681 are even
+// tested 68426
+// All digits in 68426 are even
+// tested 1
+// Not all digits in 1 are even
