@@ -15,5 +15,5 @@ func main() {
 			return
 		}
 	}
-	fmt.Println("Is not a perfect quare", x)
+	fmt.Println("Is not a perfect quare", n)
 }
