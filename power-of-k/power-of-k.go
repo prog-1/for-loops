@@ -17,6 +17,9 @@ func main() {
 		}
 		fmt.Printf("%v = %v ^ %v", d, k, i)
 		return
+	} else if n == 1 && k > 0 {
+		fmt.Printf("%v = 1 ^ %v", n, k)
+		return
 	}
 	fmt.Printf("%v is not a power of %v.", n, k)
 }
