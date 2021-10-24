@@ -18,5 +18,5 @@ func main() {
 }
 
 // Test:
-// Input: 2860, 2816, 4675, 44
-// Output: All digits in 2860 are even.; Not all digits in 2816 are even.; Not all digits in 4675 are even.; All digits in 44 are even.
+// Input: 2860, 2816, 4675, 44, -87
+// Output: All digits in 2860 are even.; Not all digits in 2816 are even.; Not all digits in 4675 are even.; All digits in 44 are even.; Not all digits in -87 are even.
