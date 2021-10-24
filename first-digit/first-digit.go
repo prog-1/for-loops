@@ -6,12 +6,12 @@ import (
 
 func main() {
 	fmt.Println("The program prints the first digit of the given integer.")
-	fmt.Println("Enter the number:")
-	var b int
+	fmt.Println("Enter the number:") 
+	var b int //0; 2786; -98; -1
 	fmt.Scanln(&b)
 	var c int
 	for c = b; c/10 != 0; {
 		c /= 10
 	}
-	fmt.Println("First digit is", c)
+	fmt.Println("First digit is", c) //0; 2; -9; -1
 }
