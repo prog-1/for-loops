@@ -18,13 +18,8 @@ func main() {
 		fmt.Println(n, "Is not a power of", k)
 		return
 	}
-	for c := n; x != 1; x /= k {
-		a = c % k
-		b++
-	}
 	if a == 0 {
 		fmt.Println(n, "=", k, "^", b)
 	} else {
 		fmt.Println(n, "Is not a power of", k)
 	}
-}
