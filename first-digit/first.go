@@ -6,7 +6,8 @@ import (
 )
 
 func main() {
-	fmt.Println("The program finds the sum of digits of N.")
+	fmt.Println("The program prints the first digit of the given integer.")
+	fmt.Println("Enter N:")
 	var a int
 	fmt.Scanln(&a)
 	if a >= 0 {
@@ -24,7 +25,7 @@ func main() {
 
 // tested -87321
 // the first digit is 8
-// tested54372
+// tested 54372
 // the first digit is 5
 // tested 0
 // the first digit is 0
