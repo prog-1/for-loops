@@ -7,7 +7,7 @@ import (
 func main() {
 	fmt.Println("The program determines if a number is a power of 2.")
 	fmt.Println("Enter the number:")
-	var i int
+	var i int //8; -3; 256; 377
 	fmt.Scanln(&i)
 	var g, h int
 	if i == 1 {
@@ -23,8 +23,8 @@ func main() {
 		h++
 	}
 	if g == 0 {
-		fmt.Println(i, "=2^", h)
+		fmt.Println(i, "=2^", h) //8; 256
 	} else {
-		fmt.Println("Is not a power of 2", i)
+		fmt.Println("Is not a power of 2", i) //-3; 377
 	}
 }
