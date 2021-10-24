@@ -10,7 +10,8 @@ func main() {
 	for i := 1; i != n+1; i++ {
 		if n%2 == 0 && n != 2 ||
 			n%3 == 0 && n != 3 ||
-			n%5 == 0 && n != 5 {
+			n%5 == 0 && n != 5 ||
+			n%7 == 0 && n != 7 {
 			fmt.Printf("%v is not a prime number.", n)
 			break
 		} else {
