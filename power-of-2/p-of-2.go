@@ -19,5 +19,22 @@ func main() {
 	}
 }
 
-// Input: 1             Input: 2            Input: 0                       Input: 8
-// Output: 1 = 2 ^ 0;   Output: 2 = 2 ^ 1   Output: 0 is not a power of 2  Output: 8 = 2 ^ 3
+// Test (1)
+// Input: 0
+// Output: 0 is not a power of 2
+
+// Test (2)
+// Input: 1
+// Output: 1 is a power of 2. 1 = 2 ^ 0
+
+// Test (3)
+// Input: 16
+// Output: 16 is a power of 2. 16 = 2 ^ 4
+
+// Test (4)
+// Input: 362
+// Output: 362 is not a power of 2
+
+// Test (5)
+// Input: -64
+// Output: -64 is not a power of 2
