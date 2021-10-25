@@ -18,3 +18,6 @@ func main() {
 		fmt.Println(num, "is a power of 2.", num, "= 2 ^", res)
 	}
 }
+
+// Input: 1             Input: 2            Input: 0                       Input: 8
+// Output: 1 = 2 ^ 0;   Output: 2 = 2 ^ 1   Output: 0 is not a power of 2  Output: 8 = 2 ^ 3
