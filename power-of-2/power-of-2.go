@@ -10,7 +10,7 @@ func main() {
 	var n, k int
 	fmt.Scanln(&n)
 	if n == 0 {
-		fmt.Print("error: 0 isn't a power of any number")
+		fmt.Print(n, "isn't a power of 2")
 	} else {
 		var tmp = n
 		if n >= 2 {
