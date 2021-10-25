@@ -2,26 +2,25 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
 
 func main() {
 	fmt.Println("The program determines if an integer is a perfect square.")
-	var n float64
+	var n, a int
 	fmt.Println("Enter the number:")
 	fmt.Scanln(&n)
 	if n <= 0 {
 		fmt.Print("error: ", n, " isn't a square")
 		return
 	}
-	a := math.Sqrt(n)
-	fmt.Println(a)
-	if a*a == n {
-		fmt.Print(n, " is a perfect square.", n, "=", a, "^2")
-	} else {
-		fmt.Println(n, "is not a perfect square.")
-
+	for a*a <= n {
+		a++
+		if a*a == n {
+			fmt.Print(n, " is a perfect square.", n, "=", a, "^2")
+			return
+		}
 	}
+	fmt.Println(n, "is not a perfect square.")
 
 }
 
