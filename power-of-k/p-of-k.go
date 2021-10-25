@@ -42,3 +42,7 @@ func main() {
 // Test (6)
 // Input: 8 2
 // Output: 8 = 2 ^ 3
+
+// Test (7)
+// Input: 0 4
+// Output: 0 is not a power of 4
