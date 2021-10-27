@@ -17,6 +17,14 @@ func main() {
 	fmt.Println("All digits in", x, "are even.")
 }
 
-// Test:
-// Input: 2860, 2816, 4675, 44, -87
-// Output: All digits in 2860 are even.; Not all digits in 2816 are even.; Not all digits in 4675 are even.; All digits in 44 are even.; Not all digits in -87 are even.
+// Test
+// Input: 487
+// Output: Not all digits in 487 are even.
+
+// Test
+// Input: 1 
+// Output: Not all digits in 487 are even.
+
+// Test
+// Input: 682
+// Output: Not all digits in 487 are even. 
