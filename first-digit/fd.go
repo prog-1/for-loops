@@ -7,19 +7,25 @@ func main() {
 	fmt.Println("Enter the number:")
 	var x int
 	fmt.Scan(&x)
-	if x > 10 {
-		for x >= 10 {
-			x /= 10
-		}
-		fmt.Println("The first digit is", x)
-	} else {
-		for x <= -10 {
-			x /= 10
-		}
-		fmt.Println("The first digit is", -x)
+	var f int
+	for f = x; f/10 != 0 ;{
+		f /= 10
 	}
+	fmt.Println("The first digit is", f)
 }
 
 // Test:
-// Input: 1532, -34, -245, 0, 2147
-// Output: The first digit is 1, The first digit is 3, The first digit is 2, The first digit is 3, The first digit is 0, The first digit is 2
+// Input: -43
+// Output: The first digit is -4
+
+// Test:
+// Input: 0
+// Output: The first digit is 0
+
+// Test:
+// Input: 53822
+// Output: The first digit is 5
+
+// Test: 
+// Input: 10
+// Output: The first digit is 1
